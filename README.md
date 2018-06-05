@@ -1,4 +1,4 @@
-# p1804  123
+# p1804  1
 …or create a new repository on the command line
 
 echo "# p1804" >> README.md

@@ -1,0 +1,12 @@
+class People(object):
+	def __init__(self):
+		self.__name = 1
+	def get_money(self):
+		return self.__money
+	def set_money(self,vlaue)
+	money = property(get_money,set_money)
+
+p = People()
+p.money = 100000
+print (p.money)
+

@@ -1,20 +1,21 @@
-class People:
-	def __init__(self,name,salary):
-		self.__name = name
-		self.salary = salary
+class PeopleYt:
+	def __init__(self,name,money):
+		self.name = name
+		self.__money = money
 	def get_name(self):
-		return self.__name
-	def get_salary(self):
-		return self.salary
-	def set_name(self,n):
-		self.name = n
 		return self.name
+	def get_money(self):
+		return self.__money
+	def set_money(self):
+		return self.__money
 	def __str__(self):
-		return self.__name
-laowang = People("老王",100000)
-print(laowang.get_name())
-print(laowang.get_salary())
+		return self.__money
+class zhangsan(PeopleYt):
+	pass
 
+zh = PeopleYt("zhangsan",100000)
+print(zhangsan.get_name())
+print(zhangsan.get_money())
 
 
 
